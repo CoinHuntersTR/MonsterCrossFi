@@ -1,6 +1,6 @@
 # Monster Cross Fi
 
-Cross Finance ödüllü testnetinde kullanıcıların Cross Fi EVM ağıyla etkileşim kurması için Monster Cross Fi geliştir. Yapmanız gerekenler:
+Cross Finance ödüllü testnetinde kullanıcıların Cross Fi EVM ağıyla daha fazla etkileşim kurması için Monster Cross Fi geliştirdik. Yapmanız gerekenler:
 
 - Metamask cüzdanınızı [BURADAN](#) platforma bağlıyoruz.
 - Eğer yoksa Cross Fi test ağını cüzdana ekliyoruz.
