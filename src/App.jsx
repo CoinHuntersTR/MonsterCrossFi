@@ -89,8 +89,15 @@ function App() {
 
     } catch(error) {
       if ((error.code === "INSUFFICIENT_FUNDS") || (error.code === -32603) || (error.code === -32000)) {
-        window.alert("You Don't Have Enough Money")
+        toast("You Don't Have Enough Money", {
+          position: "top-right",
+          autoClose: 5000
+          });
       }
+      toast(error, {
+        position: "top-right",
+        autoClose: 5000
+        });
     }
   }
 
