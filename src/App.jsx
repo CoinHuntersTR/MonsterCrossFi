@@ -43,7 +43,7 @@ function App() {
   const showMonsterHealth = async () => {
     const monsterH = await monsterContract?.monsterHealth();
     const responseValue = await ethers.utils.formatEther(monsterH)
-    const monsterHealthValue = await responseValue * 10**18
+    const monsterHealthValue = await Math.round(responseValue * 10**18);
     setMonsterHealth(monsterHealthValue);
   }
 
